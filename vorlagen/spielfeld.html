@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>4 Gewinnt - Spielfeld</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .spielfeld {
+        display: flex;
+        background-color: royalblue;
+        padding: 10px;
+        margin: 100px auto;
+        width: 510px;
+        border-radius: 24px;
+      }
+
+      .spalte {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .kreis {
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+        border: 1px solid black;
+        border-radius: 50%;
+        background-color: white;
+      }
+
+      .spieler1 {
+        background-color: red;
+      }
+
+      .spieler2 {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="spielfeld">
+      <div class="spalte">
+        <div>
+          <a href="#spalte1"><div class="kreis"></div></a>
+        </div>
+        <div>
+          <a href="#spalt1"><div class="kreis"></div></a>
+        </div>
+        <div>
+          <a href="#spalte1"><div class="kreis spieler1"></div></a>
+        </div>
+        <div>
+          <a href="#spalte1"><div class="kreis spieler2"></div></a>
+        </div>
+        <div>
+          <a href="#spalte1"><div class="kreis spieler1"></div></a>
+        </div>
+        <div>
+          <a href="#spalte1"><div class="kreis spieler2"></div></a>
+        </div>
+      </div>
+      <div class="spalte">
+        <div>
+          <a href="#spalte2"><div class="kreis"></div></a>
+        </div>
+        <div>
+          <a href="#spalte2"><div class="kreis"></div></a>
+        </div>
+        <div>
+          <a href="#spalte2"><div class="kreis"></div></a>
+        </div>
+        <div>
+          <a href="#spalte2"><div class="kreis spieler1"></div></a>
+        </div>
+        <div>
+          <a href="#spalte2"><div class="kreis spieler2"></div></a>
+        </div>
+        <div>
+          <a href="#spalte2"><div class="kreis spieler1"></div></a>
+        </div>
+      </div>
+      <div class="spalte">
+        <div>
+          <a href="#spalte3"><div class="kreis"></div></a>
+        </div>
+        <div>
+          <a href="#spalte3"><div class="kreis"></div></a>
+        </div>
+        <div>
+          <a href="#spalte3"><div class="kreis"></div></a>
+        </div>
+        <div>
+          <a href="#spalte3"><div class="kreis spieler2"></div></a>
+        </div>
+        <div>
+          <a href="#spalte3"><div class="kreis spieler1"></div></a>
+        </div>
+        <div>
+          <a href="#spalte3"><div class="kreis spieler1"></div></a>
+        </div>
+      </div>
+      <div class="spalte">
+        <div>
+          <a href="#spalte4"><div class="kreis"></div></a>
+        </div>
+        <div>
+          <a href="#spalte4"><div class="kreis"></div></a>
+        </div>
+        <div>
+          <a href="#spalte4"><div class="kreis spieler2"></div></a>
+        </div>
+        <div>
+          <a href="#spalte4"><div class="kreis spieler1"></div></a>
+        </div>
+        <div>
+          <a href="#spalte4"><div class="kreis spieler2"></div></a>
+        </div>
+        <div>
+          <a href="#spalte4"><div class="kreis spieler1"></div></a>
+        </div>
+      </div>
+      <div class="spalte">
+        <div>
+          <a href="#spalte5"><div class="kreis"></div></a>
+        </div>
+        <div>
+          <a href="#spalte5"><div class="kreis"></div></a>
+        </div>
+        <div>
+          <a href="#spalte5"><div class="kreis"></div></a>
+        </div>
+        <div>
+          <a href="#spalte5"><div class="kreis spieler2"></div></a>
+        </div>
+        <div>
+          <a href="#spalte5"><div class="kreis spieler1"></div></a>
+        </div>
+        <div>
+          <a href="#spalte5"><div class="kreis spieler1"></div></a>
+        </div>
+      </div>
+      <div class="spalte">
+        <div>
+          <a href="#spalte6"><div class="kreis"></div></a>
+        </div>
+        <div>
+          <a href="#spalte6"><div class="kreis"></div></a>
+        </div>
+        <div>
+          <a href="#spalte6"><div class="kreis"></div></a>
+        </div>
+        <div>
+          <a href="#spalte6"><div class="kreis"></div></a>
+        </div>
+        <div>
+          <a href="#spalte6"><div class="kreis spieler2"></div></a>
+        </div>
+        <div>
+          <a href="#spalte6"><div class="kreis spieler2"></div></a>
+        </div>
+      </div>
+      <div class="spalte">
+        <div>
+          <a href="#spalte7"><div class="kreis"></div></a>
+        </div>
+        <div>
+          <a href="#spalte7"><div class="kreis"></div></a>
+        </div>
+        <div>
+          <a href="#spalte7"><div class="kreis"></div></a>
+        </div>
+        <div>
+          <a href="#spalte7"><div class="kreis"></div></a>
+        </div>
+        <div>
+          <a href="#spalte7"><div class="kreis"></div></a>
+        </div>
+        <div>
+          <a href="#spalte7"><div class="kreis spieler2"></div></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

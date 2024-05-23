@@ -1,0 +1,29 @@
+- Vorraussetzungen
+  - Server
+    - PHP
+    - mod_rewrite
+
+- Spielablauf (Klartext)
+  - Spieler sollen Namen angeben
+  - Jeder Spieler bekommt Spielsteine (rot, gelb) => jeweils die Hälfte der zur Verfügung stehenden Plätze
+  - Jeder Spieler kann abwechselnd auf den untersten freien Platz einer Spalte einen Spielstein legen
+  - Der Spieler der horizontal, vertikal oder diagonal 4 oder mehr seiner Spielsteine liegen hat, der hat gewonnen
+  - nach Spielende, können die Spieler entscheiden, ob das Spiel neu gestartet werden soll, entweder mit neuen 
+    Namen, oder so wie es war
+
+- Funktionen (namen auf deutsch)
+  - spielfeldGenerieren(anzZeilen, anzSpalten)
+  - spielerAnlegen(spieler1, spieler2)
+  - spielSteinegenerieren(anzZeilen, anzSpalten)
+  - spieleZug(spieler)
+  - vierHorizontal(xPositionGesetzterStein, yPositionGesetzterStein)
+  - vierVertikal(xPositionGesetzterStein, yPositionGesetzterStein)
+  - vierDiagonalLinksObenNachRechtsUnten(xPositionGesetzterStein, yPositionGesetzterStein)
+  - vierDiagonalLinksUntenNachRechtsOben(xPostitionGesetzterStein, yPositionGesetzterStein)
+  - spielGewonnen()
+  - spielReset(spieler1?, spieler2?)
+
+- Schritte zum Ziel
+  (erl)1. Spielfeld mit HTML und CSS erstellen -- mit anzeige aller Gewinnmöglichkeiten
+  (erl)2. Einen Spielstein in HTML und CSS erstellen
+  3. Formular erstellen zum Eintragen der Spielernamen
